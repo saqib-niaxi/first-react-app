@@ -26,7 +26,7 @@ export default function TextForm(props) {
         let utterance = new SpeechSynthesisUtterance(text);
         utterance.lang = 'en-US';
         utterance.rate = 1.5 ;
-        utterance.pitch = 100;
+        utterance.pitch = 1.5;
         speechSynthesis.speak(utterance);
         props.showAlert("Text is being spoken","Success");
     }

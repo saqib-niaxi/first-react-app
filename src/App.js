@@ -56,7 +56,7 @@ function App() {
           </Route>
           </Switch>
         </Router> */}
-        <Textform showAlert={showAlert} heading={"enter text below"} mode={mode} />
+        <Textform showAlert={showAlert} heading={"Enter text below"} mode={mode} />
         </div>
     </>
   );
